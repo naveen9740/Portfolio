@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Satisfy&display=swap');
 :root{
     --primary-color:#6366F1;
     --dark-grey:#6B7280;
@@ -27,6 +27,11 @@ hr{
 .link{
     text-decoration: none;
     padding:0.5rem 1rem;
+}
+.link:hover{
+    border: 2px solid rgb(133, 164, 223);
+    background-color: #494cf0;
+    border-radius: 10px;
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -66,6 +71,9 @@ hr{
 }
 
 .navigation .nav-brand{
+    font-family: 'Sacramento', cursive;
+    text-shadow: 3px 2.5px 2px rgb(165, 108, 108);
+
     font-weight: bold;
     font-size: 1.4rem;
 }
